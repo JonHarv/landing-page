@@ -8,14 +8,9 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-}
-
-.hlogo {
-    font-size: 24px;    
-    color: #F9FAF8;
-    font-weight: 700;
+    padding: 12px 36px;
 }
 
 ul {
@@ -26,6 +21,7 @@ ul {
 
 a {
     text-decoration: none;
+    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -53,7 +49,7 @@ a {
 .toptitle {
     font-size: 48px;
     color: #F9FAF8;
-
+    font-weight: 800;
 }
 
 button {
@@ -62,4 +58,31 @@ button {
     padding: 4px 10px;
     width: 100px;
     border-radius: 8px;
+}
+
+.pictitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 24px 0;
+}
+
+.piccontainer {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.pic {
+    width:200px; 
+    height:200px;
+    object-fit:cover;
+    border-radius: 8px;
+}
+
+.picblocks {
+    font-size: 16px;
+    flex-wrap: wrap;
 }
