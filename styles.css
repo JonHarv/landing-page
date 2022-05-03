@@ -30,7 +30,7 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 36px 15%;
+    padding: 5% 15%;
     color: #E5E7EB;
 }
 
@@ -52,6 +52,11 @@ a {
     font-weight: 800;
 }
 
+.toppic {
+    border-radius: 8px;
+}
+
+
 button {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -63,8 +68,8 @@ button {
 .pictitle {
     text-align: center;
     font-weight: 700;
-    font-size: 24px;
-    padding: 24px 0;
+    font-size: 30px;
+    padding-top: 35px;
 }
 
 .piccontainer {
@@ -72,7 +77,7 @@ button {
     justify-content: center;
     gap: 24px;
     text-align: center;
-    padding-bottom: 24px;
+    padding: 75px 25% 100px 25%;
 }
 
 .pic {
@@ -93,7 +98,7 @@ button {
     align-items: center;
     background-color: #E5E7EB;
     text-align: center;
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
 .quotetext {
@@ -103,4 +108,31 @@ button {
     font-weight: lighter;
     color: #1F2937;
     padding: 36px;
+}
+
+.quoteauthor {
+    align-self: flex-end;
+    padding-right: 25%;
+}
+
+.call {
+    margin: 75px 20% 75px 20%;
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 5% 35px 5%;
+    color: #E5E7EB;
+}
+
+.calltitle {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 10px;
+    color: #E5E7EB;
 }
